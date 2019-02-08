@@ -41,11 +41,6 @@
                         <color key="backgroundColor" red="0.4603850515644507" green="0.98829740290000001" blue="0.69862047263344562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="askButtonPressed" destination="tvU-JE-njz" id="xtf-17-32s"/>
-                        <outlet property="imageView1" destination="b47-cD-dU8" id="cg5-b1-PWn"/>
-                        <outlet property="override" destination="b47-cD-dU8" id="Pd1-DF-DhN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
