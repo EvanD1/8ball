@@ -18,14 +18,16 @@ class ViewController: UIViewController {
     
 
     @IBAction func askButtonPressed(_ sender: Any) {
+        newBallImage()
+    }
+    func newBallImage () {
         randomball = Int(arc4random_uniform(5))
         print(randomball)
         imageView1.image = UIImage(named: ballArray[randomball])
     }
-    
     override func viewDidLoad(){
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       newBallImage()
     }
 
 }
